@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif !important;
+}
+
+$size:cover;
+$dis:flex;
+$color:white;
+$repeat:no-repeat;
+$color1:#cae6d6;
+$just:space-evenly;
+$pos:relative;
+$just1:center;
+$color2:black;
+$around: space-around;
+header {
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d3fd2c2207695fa1a9d1d2c1/-min.jpg);
+    height: 800px;
+    background-repeat: $repeat;
+    background-size: $size;
+    background-position: 50% 50%;
+    nav {
+        display: $dis;
+        justify-content: $around;
+        background-color: $color;
+        padding: 25px;
+        ul {
+            li {
+                margin: 5px 25px;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .header-div {
+        padding-top: 130px;
+        width: 50%;
+        h2 {
+            color: $color !important;
+            font-size: 130px;
+            font-weight: 500;
+            text-align: left;
+        }
+    }
+}
+
+.sec1 {
+    padding: 100px;
+    height: 1700px;
+    .mainDiv1 {
+        display: $dis;
+        justify-content: end;
+        .sec1-div1 {
+            width: 20%;
+            h4 {
+                letter-spacing: 6px;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.3rem;
+                padding-bottom: 20px;
+            }
+            p {
+                padding-bottom: 20px;
+            }
+            .p1 {
+                padding-left: 200px;
+                a {
+                    color: $color2;
+                }
+            }
+        }
+    }
+    .mainDiv2 {
+        display: $dis;
+        justify-content: $just;
+        padding-top: 100px;
+        .sec1-div2 {
+            width: 400px;
+            padding-bottom: 100px;
+            .div3 {
+                width: 495px;
+                height: 495px;
+                border-radius: 50%;
+                background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/7eb2ce19149a54c5a359d7d6/drt.jpg?version=);
+                background-size: $size;
+                background-repeat: $repeat;
+                .div33 {
+                    background-color: $color1;
+                    width: 147px;
+                    height: 147px;
+                    border-radius: 50%;
+                    position: $pos;
+                }
+            }
+        }
+        .sec1-div3 {
+            width: 400px;
+            .h1 {
+                font-size: 70px;
+                padding-bottom: 50px;
+                font-weight: 900;
+            }
+        }
+    }
+    .mainDiv3 {
+        display: $dis;
+        justify-content: $just1;
+        .sec1-div4 {
+            width: 350px;
+            padding-left: 200px;
+            h2 {
+                font-weight: 700;
+                font-size: 3rem;
+            }
+            h3 {
+                font-weight: 400;
+                font-size: 3rem;
+                padding-bottom: 50px;
+            }
+            .p2 {
+                font-size: 20px;
+            }
+            .p3 {
+                padding-top: 50px;
+                font-size: 20px;
+                a {
+                    color: $color2;
+                }
+            }
+        }
+        .sec1-div5 {
+            width: 350px;
+            padding-left: 100px;
+            padding-top: 150px;
+            .a {
+                color: $color2;
+                font-size: 20px;
+            }
+            .p4 {
+                font-size: 20px;
+            }
+        }
+        .sec1-div6 {
+            width: 350px;
+            padding-left: 50px;
+            .div6 {
+                background-color: $color1;
+                width: 147px;
+                height: 147px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .mainDiv4 {
+        padding-top: 100px;
+        .div7 {
+            display: $dis;
+            justify-content: $just1;
+            img {
+                width: 300px;
+                height: 300px;
+                margin: 6px;
+            }
+        }
+    }
+}
+
+.sec2 {
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bedbe931a3b25d538d3fc50a/-min.jpg);
+    height: 600px;
+    background-size: $size;
+    background-repeat: $repeat;
+    .div8 {
+        color: $color;
+        height: 600px;
+        width: 400px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        position: $pos;
+        left: 400px;
+        .h5 {
+            text-transform: uppercase;
+            font-size: 1rem;
+            letter-spacing: 6px;
+            margin: 0;
+            padding-left: 70px;
+            padding-top: 10px;
+        }
+        .h6 {
+            font-size: 4.5rem;
+            margin: 20px 0;
+            padding-left: 80px;
+        }
+    }
+    .div9 {
+        background-color: $color;
+        height: 600px;
+        width: 300px;
+        position: $pos;
+        left: 800px;
+        bottom: 600px;
+        .d9 img {
+            width: 25px;
+            height: 25px;
+            padding-top: 20px;
+        }
+    }
+    .div10 {
+        padding-top: 400px;
+        width: 220px;
+        padding-left: 20px;
+        font-style: italic;
+        .p3 {
+            padding-top: 10px;
+            a {
+                color: $color2;
+            }
+        }
+    }
+}
+
+.sec3 {
+    height: 1400px;
+    .container-1 {
+        height: 300px;
+        .row-1 {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            @mixin klor {
+                height: 250px;
+                width: 250px;
+                background-color: #cae6d6;
+                border-radius: 50%;
+            }
+            .d-1 {
+                @include klor;
+            }
+            .d-2 {
+                width: 500px;
+                position: relative;
+                left: -96px;
+                top: 50px;
+            }
+            .p1 {
+                font-size: 3rem;
+                margin: 0;
+            }
+        }
+    }
+    .row-2 {
+        display: flex;
+        justify-content: center;
+        .div1 {
+            width: 325px;
+            height: 370px;
+            margin: 10px;
+        }
+        .div2 {
+            width: 325px;
+            margin: 6px;
+            img {
+                height: 315px;
+                margin: 6px;
+            }
+        }
+        .div3 {
+            width: 325px;
+            margin: 6px;
+        }
+        img {
+            width: 320px;
+            margin: 6px;
+        }
+        .fd {
+            height: 480px;
+            margin: 6px;
+        }
+    }
+}
+
+.sec4 {
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/73e1ae5353685918bf1176bd/pexelsphoto3334048.jpeg);
+    height: 600px;
+    background-size: $size;
+    background-repeat: $repeat;
+    .hh {
+        width: 600px;
+        padding-left: 600px;
+        padding-top: 300px;
+        .h12 {
+            color: $color !important;
+            font-size: 130px;
+            font-weight: 500;
+            text-align: right;
+        }
+    }
+}
+
+.sec5 {
+    height: 500px;
+    display: $dis;
+    .df {
+        display: $dis;
+        justify-content: $just1;
+    }
+    .div20 {
+        width: 300px;
+        padding: 150px;
+        .h13 {
+            letter-spacing: 3px;
+            font-family: sans-serif;
+            padding-bottom: 20px;
+        }
+        .h14 {
+            font-style: italic;
+            padding-bottom: 20px;
+        }
+        .h15 {
+            font-family: sans-serif;
+            padding-bottom: 10px;
+        }
+        .h16 {
+            color: $color2;
+            font-size: 17px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+        }
+    }
+    .div21 {
+        width: 94px;
+        height: 94px;
+        margin: -53px 13px 0 auto;
+        border-radius: 50%;
+        background-color: $color1;
+        position: $pos;
+        top: 50px;
+        left: 50px;
+    }
+    .div22 img {
+        width: 30px;
+        height: 30px;
+        padding-top: 200px;
+    }
+    .div23 {
+        background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/5d9de2b71b915bf48e292f43/rtrtt-min.jpg);
+        width: 300px;
+        height: 300px;
+        background-repeat: $repeat;
+        background-size: $size;
+        border-radius: 50%;
+        position: $pos;
+        left: 300px;
+        top: 100px;
+        .p3 {
+            left: 100px;
+            top: 340px;
+            position: $pos;
+        }
+        .p3 a {
+            color: $color2;
+        }
+    }
+}
+
+footer {
+    height: 200px;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 50px;
+    .div24 {
+        display: $dis;
+        justify-content: $just1;
+    }
+    .div24 a {
+        padding: 10px;
+        color: $color;
+        text-decoration: none;
+        padding-left: 30px;
+        &:hover {
+            color: #969191;
+        }
+    }
+}
